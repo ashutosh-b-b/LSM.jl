@@ -1,4 +1,4 @@
-function BinomialTreeAM1D(S0 , N , r , beta)
+function BinomialTreeAM1D(S0 , N , r , beta , K)
     V = zeros(N+1)
     dT = T/N
     u = exp(beta*sqrt(dT))

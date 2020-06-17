@@ -45,4 +45,4 @@ function LSM_pricing(r , sigma, K , S0 , T , N , M)
   return price
 end
 
-LSM_pricing(r , sigma , K , S0 , T , N , M)
+println(LSM_pricing(r , sigma , K , S0 , T , N , M))
